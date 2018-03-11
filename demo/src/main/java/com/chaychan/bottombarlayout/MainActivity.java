@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+//主页..
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,11 +15,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void useVp(View view){
-        startActivity(new Intent(this,ViewPagerActivity.class));
+    public void useVp(View view) {
+        startActivity(new Intent(this, ViewPagerActivity.class));
     }
 
-    public void noUseVp(View view){
-        startActivity(new Intent(this,FragmentManagerActivity.class));
+    public void noUseVp(View view) {
+        startActivity(new Intent(this, FragmentManagerActivity.class));
     }
 }
